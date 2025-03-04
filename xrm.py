@@ -22,15 +22,13 @@ from rich.panel import Panel
 from rich import print as printf
 from requests.exceptions import RequestException
 
-# Use a dynamic path for the cookie file
-COOKIE_FILE = os.path.expanduser("~/cookie.txt")  
+COOKIE_FILE = "cookies.txt"  # Ensure it's in the same directory as the script
 
 def load_netscape_cookies(file_path):
     """Loads cookies from a Netscape-format file."""
-    if not os.path.exists(file_path):
-        printf(Panel("[bold red]Cookie file not found! Waiting for upload...", style="bold bright_black", width=56))
-        while not os.path.exists(file_path):  # Keep waiting for the file
-            time.sleep(10)
+    while not os.path.exists(file_path):  
+        printf(Panel("[bold red]Cookie file not found! Waiting for update...", style="bold bright_black", width=56))
+        time.sleep(10)  # Keep checking every 10 seconds until file is available
     cookie_jar = MozillaCookieJar(file_path)
     cookie_jar.load(ignore_discard=True, ignore_expires=True)
     return cookie_jar
@@ -86,7 +84,7 @@ def run_forever():
     retries = 0
     while True:
         try:
-            os.system('git pull')  # Update the script if stored in GitHub
+            os.system('git pull')  # Always get latest updates
             cookies = load_netscape_cookies(COOKIE_FILE)
             CLAIM(cookies).XRP()
         except Exception as e:
