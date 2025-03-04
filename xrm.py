@@ -23,7 +23,7 @@ from rich import print as printf
 from requests.exceptions import RequestException
 
 # Use a dynamic path for the cookie file
-COOKIE_FILE = os.path.expanduser("~/cookies.txt")  
+COOKIE_FILE = os.path.expanduser("~/cookie.txt")  
 
 def load_netscape_cookies(file_path):
     """Loads cookies from a Netscape-format file."""
