@@ -22,8 +22,7 @@ jobs:
           python-version: "3.x"
 
       - name: Install dependencies
-        run: |
-          pip install -r <(echo "requests\nrich")
+        run: pip install requests rich
 
       - name: Run script
         run: python xrp.py
