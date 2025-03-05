@@ -6,7 +6,7 @@ from rich.panel import Panel
 from rich import print as printf
 from requests.exceptions import RequestException
 
-COOKIE_FILE = "cookies.txt"  # Ensure it's in the same directory
+COOKIE_FILE = "cookie.txt"  # Ensure it's in the same directory
 MAX_RUNTIME = 21500  # 5 hours, 58 minutes (just before GitHub Actions stops it)
 start_time = time.time()
 
