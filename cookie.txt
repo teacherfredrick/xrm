@@ -2,12 +2,11 @@
 # http://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file!  Do not edit.
 
-.faucetearner.org	TRUE	/	FALSE	1741760785	googtrans	/en/en
-.faucetearner.org	TRUE	/	FALSE	1772691986	Hm_lvt_2b147ccaeef7e49f5f9553cadfdf8428	1740576324
+.faucetearner.org	TRUE	/	FALSE	1742141339	googtrans	/en/en
+faucetearner.org	FALSE	/	FALSE	1741581746	login	1
+faucetearner.org	FALSE	/	FALSE	1741581746	user	767996726401-129.222.187.216
+.faucetearner.org	TRUE	/	FALSE	1773072539	Hm_lvt_2b147ccaeef7e49f5f9553cadfdf8428	1740576324,1741322553
 .faucetearner.org	TRUE	/	FALSE	0	HMACCOUNT	41B3D6C4856019C1
-.faucetearner.org	TRUE	/	FALSE	1775715986	_ga	GA1.1.1144823107.1740576325
-faucetearner.org	FALSE	/	FALSE	1741267654	login	1
-faucetearner.org	FALSE	/	FALSE	1741267654	user	767996726401-129.222.187.235
-faucetearner.org	FALSE	/	FALSE	1741182101	show_nt1	1
-.faucetearner.org	TRUE	/	FALSE	1775715986	_ga_N7BJYK4G71	GS1.1.1741155867.22.1.1741155986.0.0.0
-.faucetearner.org	TRUE	/	FALSE	0	Hm_lpvt_2b147ccaeef7e49f5f9553cadfdf8428	1741155986
+.faucetearner.org	TRUE	/	FALSE	1776096533	_ga	GA1.1.562530856.1741322553
+.faucetearner.org	TRUE	/	FALSE	1776096533	_ga_N7BJYK4G71	GS1.1.1741536533.5.0.1741536533.0.0.0
+.faucetearner.org	TRUE	/	FALSE	0	Hm_lpvt_2b147ccaeef7e49f5f9553cadfdf8428	1741536540
